@@ -5,8 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>day-5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .panels {
+        display: flex;
+        overflow: hidden;
+        min-height: 100vh;
+      }
+      .panel {
+        flex: 1;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .panel-1 {
+        background: url(1.jpg);
+        color: white;
+      }
+      .panel-2 {
+        background: url(2.jpg);
+      }
+      .panel-3 {
+        background: url(3.jpg);
+        color: white;
+      }
+      .panel-4 {
+        background: url(4.jpg);
+      }
+      .panel-5 {
+        background: url(5.jpg);
+      }
+      h3 {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      h3:first-child {
+        margin-bottom: 25px;
+      }
+      h3:last-child {
+        margin-top: 25px;
+      }
+    </style>
   </head>
   <body>
+    <div class="panels">
+      <div class="panel panel-1">
+        <h3>All</h3>
+        <h2>Is</h2>
+        <h3>Well</h3>
+      </div>
+      <div class="panel panel-2">
+        <h3>Believe</h3>
+        <h2>You</h2>
+        <h3>Can</h3>
+      </div>
+      <div class="panel panel-3">
+        <h3>Change</h3>
+        <h2>Is</h2>
+        <h3>Good</h3>
+      </div>
+      <div class="panel panel-4">
+        <h3>Clear</h3>
+        <h2>The</h2>
+        <h3>Air</h3>
+      </div>
+      <div class="panel panel-5">
+        <h3>Commit</h3>
+        <h2>Or</h2>
+        <h3>Quit</h3>
+      </div>
+    </div>
     <script></script>
   </body>
 </html>
